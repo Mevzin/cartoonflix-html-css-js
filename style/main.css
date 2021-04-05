@@ -3,6 +3,10 @@
     --preta:#141414;
 }
 
+html{
+    scroll-behavior: smooth;
+ }
+
 *{
     margin: 0;
     padding: 0;
@@ -31,14 +35,18 @@ header .logo{
     font-size: 40px;
 }
 
+header .logo:hover{
+    color: white;
+}
+
 header nav a{
     text-decoration: none;
     color: #AAA;
-    margin-right: 10px;
+    margin-right: 20px;
 }
 
 header nav a:hover{
-    color: #FFF;
+    color: var(--vermelho);
 }
 
 /*filme principal*/
@@ -101,4 +109,14 @@ header nav a:hover{
 
 .carrosel-filmes{
     margin-top: 5px;
+}
+
+.text-sections{
+    font-size: 20px;
+    margin: 10px 8px 10px;
+}
+
+img:hover{
+    cursor: pointer;
+    
 }
